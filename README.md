@@ -13,6 +13,7 @@ Vous devez cloner ce répot dans un système d'exploitation  ubuntu (par vmware 
 sudo apt install docker.io
 ```
 -Commandes pour installer docker-compose 
+
 On télécharge docker-compose :
 ```bash
 curl -L “https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -29,5 +30,13 @@ On vérifie
 ```bash
 docker-compose -v
 ```
+## Exécuter les conteneurs via la méthode docker-compose avec la méthode docker-compose :
+On exécute ces trois conteneurs avec la commande suivante :
+```bash
+sudo docker-compose up -d
+```
+
+## On vérifie en tapant l'url sur un navigateur web
+
 
 
