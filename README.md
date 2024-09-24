@@ -5,4 +5,10 @@ L'environnement de travail est constitué d'un dossier courant dockerconteneur e
 - Un dosier phpmyadmin (vide également)
   
 ## 1) Cloner le répot 
-Vous devez cloner ce répot dans un référentiel ubuntu (par vmware ou via un invité de commande avec wsl).
+Vous devez cloner ce répot dans un système d'exploitation  ubuntu (par vmware ou via un invité de commande avec wsl sur windows).
+
+## 2) Installer docker et docker-compose avec les commandes suivantes :
+ ```bash
+sudo apt install docker.io
+```
+
