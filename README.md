@@ -8,7 +8,16 @@ L'environnement de travail est constitué d'un dossier courant dockerconteneur e
 Vous devez cloner ce répot dans un système d'exploitation  ubuntu (par vmware ou via un invité de commande avec wsl sur windows).
 
 ## 2) Installer docker et docker-compose avec les commandes suivantes :
+-Commande pour installer docker 
  ```bash
 sudo apt install docker.io
 ```
+-Commandes pour installer docker-compose 
+```bash
+curl -L “https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+docker-compose -v
+```
+
 
