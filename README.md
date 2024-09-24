@@ -13,15 +13,19 @@ Vous devez cloner ce répot dans un système d'exploitation  ubuntu (par vmware 
 sudo apt install docker.io
 ```
 -Commandes pour installer docker-compose 
+On télécharge docker-compose :
 ```bash
 curl -L “https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
+On change les autorisations : 
 ```bash
 chmod +x /usr/local/bin/docker-compose
 ```
+On crée un lien symbolique
 ```bash
 ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
+On vérifie 
 ```bash
 docker-compose -v
 ```
